@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Spartan:wght@600&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spartan", sans-serif;
+}
+
+img#img-logo {
+  width: 150px !important;
+}
+
+.container {
+  max-width: 1620px !important;
+}
+
+.btn.btn-dark {
+  background-color: #0F172A !important;
+  border: 1px solid #0F172A !important;
+  color: #fff !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.btn.btn-dark:hover {
+  background-color: #0F172A !important;
+  border: 1px solid #0F172A !important;
+  color: #fff !important;
+  transition: all 0.2s ease-in-out;
+}
+.btn.btn-primary {
+  background-color: #4F5CD7 !important;
+  border: 1px solid #4F5CD7 !important;
+  color: #fff !important;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.btn.btn-primary:hover {
+  background-color: #4F5CD7 !important;
+  border: 1px solid #4F5CD7 !important;
+  color: #fff !important;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+.btn.btn-outline-primary {
+  border: 1px solid #4F5CD7 !important;
+  background-color: transparent;
+  color: #4F5CD7 !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.btn.btn-outline-primary:hover {
+  background-color: #4F5CD7 !important;
+  border: 1px solid #4F5CD7 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+.btn.btn-outline-primar {
+  border: 1px solid #4F5CD7 !important;
+  background-color: transparent;
+  color: #4F5CD7 !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.btn.btn-outline-primar:hover {
+  background-color: #4F5CD7 !important;
+  border: 1px solid #4F5CD7 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.top {
+  margin-top: 100px;
+}
+
+.search-box {
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #F5F5F5;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scroller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.ml-4 {
+  margin-left: 20px;
+}/*# sourceMappingURL=main.css.map */

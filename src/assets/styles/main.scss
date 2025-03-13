@@ -81,6 +81,13 @@ img#img-logo {
       color: #fff !important;
       font-weight: bold;
     }
+    
+    &.active {
+      background-color: $blue-color !important;
+      border: 1px solid $blue-color !important;
+      color: #fff !important;
+      font-weight: bold;
+    }
   }
 
 
@@ -126,4 +133,40 @@ img#img-logo {
 
 .ml-4 {
   margin-left: 20px;
+}
+
+
+.bg-blue-tr {
+  background-color: #F1F9FD;
+}
+
+.bg-light-tr {
+  background-color: #F5F5F5;
+}
+
+.bg-orange-tr {
+  background-color: #FBF6FD;
+}
+
+.rond {
+  border-radius: 50px;
+  background-color: rgba($color: #000000, $alpha: 0.05);
+  padding: 25px;
+  width: 70px;
+  height: 70px;
+}
+
+.img-voiture {
+  border-radius: 5px;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+
+
+.img-voiture1 {
+  border-radius: 5px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
 }

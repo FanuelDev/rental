@@ -86,7 +86,143 @@
   <section class="top">
     <div class="row">
       <div class="col-md-4 offset-md-4">
-        
+        <h1 class="text-center">
+          consultez <br />
+          notre marché
+        </h1>
+        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-md-4 p-5">
+        <div class="card p-5 border-0 bg-blue-tr text-center">
+          <div class="my-4 d-flex justify-content-center">
+            <div class="rond">
+              <h5><i class="fas fa-certificate"></i></h5>
+            </div>
+          </div>
+          <h6>carte de crédit pas nécessaire</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+            molestiae.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="card p-5 border-0 bg-light-tr text-center">
+          <div class="my-4 d-flex justify-content-center">
+            <div class="rond">
+              <h5><i class="far fa-chart-bar"></i></h5>
+            </div>
+          </div>
+          <h6>enregistrement ultra rapide</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+            molestiae.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4 p-5">
+        <div class="card p-5 border-0 bg-orange-tr text-center">
+          <div class="my-4 d-flex justify-content-center">
+            <div class="rond">
+              <h5><i class="fab fa-opencart"></i></h5>
+            </div>
+          </div>
+          <h6>reservation et assurance</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+            molestiae.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="my-5">
+    <div class="row align-items-end">
+      <div class="col-md-6 p-5">
+        <h1 class="text-left">
+          vos vehicules prêt pour <br />
+          la reservation
+        </h1>
+      </div>
+      <div class="col-md-6 p-5">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, nam!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+          molestiae.
+        </p>
+      </div>
+    </div>
+    <div class="row my-4">
+      <div class="col-md-12 d-lg-flex justify-content-center">
+        <button class="btn btn-outline-primary mx-2">Citadines</button>
+        <button class="btn btn-outline-primary mx-2">Berlines</button>
+        <button class="btn btn-outline-primary mx-2">SUV & 4x4</button>
+        <button class="btn btn-outline-primary mx-2">Vans & Minibus</button>
+        <button class="btn btn-outline-primary active mx-2">
+          Voitures de Luxe
+        </button>
+        <button class="btn btn-outline-primary mx-2">Utilitaires</button>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-md-4 my-2">
+        <img src="/src/assets/img/1.jpg" class="img-fluid img-voiture" alt="" />
+      </div>
+      <div class="col-md-4 my-2">
+        <img src="/src/assets/img/2.jpg" class="img-fluid img-voiture" alt="" />
+      </div>
+      <div class="col-md-4 my-2">
+        <img src="/src/assets/img/3.jpg" class="img-fluid img-voiture" alt="" />
+      </div>
+      <div class="col-md-3 my-2">
+        <img
+          src="/src/assets/img/4.jpg"
+          class="img-fluid img-voiture1"
+          alt=""
+        />
+      </div>
+      <div class="col-md-3 my-2">
+        <img
+          src="/src/assets/img/5.jpg"
+          class="img-fluid img-voiture1"
+          alt=""
+        />
+      </div>
+      <div class="col-md-3 my-2">
+        <img
+          src="/src/assets/img/6.jpg"
+          class="img-fluid img-voiture1"
+          alt=""
+        />
+      </div>
+      <div class="col-md-3 my-2">
+        <img
+          src="/src/assets/img/7.jpg"
+          class="img-fluid img-voiture1"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-outline-primary mx-2">
+        Voir plus <i class="fa fa-arrow-right"></i>
+      </button>
+    </div>
+  </section>
+
+  <section class="top">
+    <div class="row">
+      <div class="col-md-4 offset-md-4">
+        <h1 class="text-center">
+          Articles & Blogs
+        </h1>
+        <p class="text-center">Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
   </section>

@@ -68,6 +68,12 @@ img#img-logo {
   color: #fff !important;
   font-weight: bold;
 }
+.btn.btn-outline-primary.active {
+  background-color: #4F5CD7 !important;
+  border: 1px solid #4F5CD7 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
 .btn.btn-outline-primar {
   border: 1px solid #4F5CD7 !important;
   background-color: transparent;
@@ -107,4 +113,40 @@ img#img-logo {
 
 .ml-4 {
   margin-left: 20px;
+}
+
+.bg-blue-tr {
+  background-color: #F1F9FD;
+}
+
+.bg-light-tr {
+  background-color: #F5F5F5;
+}
+
+.bg-orange-tr {
+  background-color: #FBF6FD;
+}
+
+.rond {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  width: 70px;
+  height: 70px;
+}
+
+.img-voiture {
+  border-radius: 5px;
+  width: 100%;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img-voiture1 {
+  border-radius: 5px;
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */

@@ -28,7 +28,7 @@
           </div>
           <div class="navbar-nav">
             <a class="nav-link mx-2 active btn btn-dark" aria-current="page" href="#">Reserver une voiture</a>
-            <a class="nav-link mx-2 active  btn btn-outline-primary" aria-current="page" href="#">Se connecter</a>
+            <a class="nav-link mx-2 btn btn-outline-primary" aria-current="page" href="#">Se connecter</a>
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Spartan:wght@600&display=swap');
 
 // Exemple :
-$primary-color: #0F172A;
-$blue-color: #4F5CD7;
+$primary-color: #D97706;
+$dark-color: #1E1E1E;
+$blue-color: #1E40AF;
 $font-bold: 'Spartan', sans-serif;
 $font-light: 'Poppins', sans-serif;
 
@@ -31,11 +32,27 @@ img#img-logo {
 
 .btn {
   &.btn-dark {
-    background-color: $primary-color !important;
-    border: 1px solid $primary-color !important;
+    background-color: $dark-color !important;
+    border: 1px solid $dark-color !important;
     color: #fff !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: $dark-color !important;
+      border: 1px solid $dark-color !important;
+      color: #fff !important;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+  &.btn-primary {
+    background-color: $primary-color !important;
+    border: 1px solid $primary-color !important;
+    color: #fff !important;
     border-radius: 50px;
     font-weight: bold;
     transition: all 0.2s ease-in-out;
@@ -44,22 +61,6 @@ img#img-logo {
       background-color: $primary-color !important;
       border: 1px solid $primary-color !important;
       color: #fff !important;
-      transition: all 0.2s ease-in-out;
-    }
-  }
-
-  &.btn-primary {
-    background-color: $blue-color !important;
-    border: 1px solid $blue-color !important;
-    color: #fff !important;
-    border-radius: 50px;
-    font-weight: bold;
-    transition: all 0.2s ease-in-out;
-
-    &:hover {
-      background-color: $blue-color !important;
-      border: 1px solid $blue-color !important;
-      color: #fff !important;
       border-radius: 50px;
       font-weight: bold;
       transition: all 0.2s ease-in-out;
@@ -67,24 +68,24 @@ img#img-logo {
   }
 
   &.btn-outline-primary {
-    border: 1px solid $blue-color !important;
+    border: 1px solid $primary-color !important;
     background-color: transparent;
-    color: $blue-color !important;
+    color: $primary-color !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
     border-radius: 50px;
     font-weight: bold;
 
     &:hover {
-      background-color: $blue-color !important;
-      border: 1px solid $blue-color !important;
+      background-color: $primary-color !important;
+      border: 1px solid $primary-color !important;
       color: #fff !important;
       font-weight: bold;
     }
     
     &.active {
-      background-color: $blue-color !important;
-      border: 1px solid $blue-color !important;
+      background-color: $primary-color !important;
+      border: 1px solid $primary-color !important;
       color: #fff !important;
       font-weight: bold;
     }

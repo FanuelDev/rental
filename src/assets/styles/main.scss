@@ -4,6 +4,7 @@
 $primary-color: #D97706;
 $dark-color: #1E1E1E;
 $blue-color: #1E40AF;
+$light-color: #F5F5DC;
 $font-bold: 'Spartan', sans-serif;
 $font-light: 'Poppins', sans-serif;
 
@@ -24,6 +25,15 @@ h6 {
 
 img#img-logo {
   width: 150px !important;
+}
+
+
+#img-logo1 {
+  width: 250px !important;
+}
+
+.bg-light {
+  background-color: rgba($light-color, 0.2) !important;
 }
 
 .container {
@@ -82,7 +92,7 @@ img#img-logo {
       color: #fff !important;
       font-weight: bold;
     }
-    
+
     &.active {
       background-color: $primary-color !important;
       border: 1px solid $primary-color !important;
@@ -158,7 +168,7 @@ img#img-logo {
 }
 
 .img-voiture {
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   height: 320px;
   object-fit: cover;
@@ -166,8 +176,59 @@ img#img-logo {
 
 
 .img-voiture1 {
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   height: 250px;
   object-fit: cover;
+}
+
+.img-article {
+  border-radius: 10px;
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bg-banner2 {
+  width: 100%;
+  height: 30vh;
+  background-image: url(/src/assets/img/banner3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.text-decorate {
+  color: #575757;
+}
+
+
+.a {
+  color: #575757;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+ul {
+  margin-top: 15px;
+
+  li {
+    margin-top: 10px;
+    margin-left: -15px;
+    text-decoration: none;
+    list-style-type: none;
+
+    a {
+      text-decoration: none;
+      color: #575757;
+    }
+  }
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
 }

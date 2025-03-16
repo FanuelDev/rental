@@ -222,10 +222,81 @@
         <h1 class="text-center">
           Articles & Blogs
         </h1>
-        <p class="text-center">Lorem ipsum dolor sit amet.</p>
+        <p class="text-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet <br> consectetur adipisicing.</p>
+      </div>
+    </div>
+
+    <div class="row my-5">
+      <div class="col-md-3">
+        <img src="/src/assets/img/5.jpg" class="img-fluid img-article" alt="">
+        <div class="m-3">
+          <p>lorem</p>
+          <h5 class="mb-3">
+            Lorem ipsum dolor sit amet consectetur adip.
+          </h5>
+          <small>Mars 12, 2025</small>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="/src/assets/img/6.jpg" class="img-fluid img-article" alt="">
+        <div class="m-3">
+          <p>lorem</p>
+          <h5 class="mb-3">
+            Lorem ipsum dolor sit amet consectetur adip.
+          </h5>
+          <small>Mars 12, 2025</small>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="/src/assets/img/2.jpg" class="img-fluid img-article" alt="">
+        <div class="m-3">
+          <p>lorem</p>
+          <h5 class="mb-3">
+            Lorem ipsum dolor sit amet consectetur adip.
+          </h5>
+          <small>Mars 12, 2025</small>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <img src="/src/assets/img/4.jpg" class="img-fluid img-article" alt="">
+        <div class="m-3">
+          <p>lorem</p>
+          <h5 class="mb-3">
+            Lorem ipsum dolor sit amet consectetur adip.
+          </h5>
+          <small>Mars 12, 2025</small>
+        </div>
+      </div>
+      
+    <div class="text-center my-5">
+      <button class="btn btn-outline-primary mx-2">
+        Voir plus <i class="fa fa-arrow-right"></i>
+      </button>
+    </div>
+    </div>
+  </section>
+
+  <section class="top">
+
+  </section>
+
+  <section class="top">
+    <div class="container bg-banner2">
+      <div class="row align-items-center">
+        <div class="col-md-5"></div>
+        <div class="col-md-6 text-center my-4">
+          <h2 class="text-white">Conduisons avec un contrat aujourd'hui.</h2>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, saepe blanditiis dolor animi vitae ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, delectus.</p>
+          <div class="my-4">
+            <button class="btn btn-primary px-4">
+              Télécharger l'application mobile
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";

@@ -111,104 +111,112 @@
         </div>
         <div class="my-4 row">
           <div class="col-md-6 my-3">
-            <a-badge-ribbon text="Nouveauté" color="green">
-              <a-card>
-                <a-tag color="green">Disponible</a-tag>
-                <a-tag color="blue">Climatisée</a-tag>
-                <div>
-                  <img
-                    src="/src/assets/img/v1.png"
-                    class="img-fluid img-voiture3"
-                    alt=""
-                  />
-                </div>
-                <div class="d-flex justify-content-between align-items-end">
+            <router-link to="/search/1" class="a">
+              <a-badge-ribbon text="Nouveauté" color="green">
+                <a-card>
+                  <a-tag color="green">Disponible</a-tag>
+                  <a-tag color="blue">Climatisée</a-tag>
                   <div>
-                    <span class="text-decorate">Akfa Romeo | Guilla</span>
-                    <br />
-                    <h5>Veloce, 2024</h5>
+                    <img
+                      src="/src/assets/img/v1.png"
+                      class="img-fluid img-voiture3"
+                      alt=""
+                    />
                   </div>
-                  <div>
-                    <h5>150.000 XOF / Jour</h5>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <span class="text-decorate">Akfa Romeo | Guilla</span>
+                      <br />
+                      <h5>Veloce, 2024</h5>
+                    </div>
+                    <div>
+                      <h5>150.000 XOF / Jour</h5>
+                    </div>
                   </div>
-                </div>
-              </a-card>
-            </a-badge-ribbon>
+                </a-card>
+              </a-badge-ribbon>
+            </router-link>
           </div>
           <div class="col-md-6 my-3">
-            <a-badge-ribbon text="Populaire" color="blue">
-              <a-card>
-                <a-tag color="green">Disponible</a-tag>
-                <a-tag color="blue">Climatisée</a-tag>
-                <div>
-                  <img
-                    src="/src/assets/img/v2.png"
-                    class="img-fluid img-voiture3"
-                    alt=""
-                  />
-                </div>
-                <div class="d-flex justify-content-between align-items-end">
+            <router-link to="/search/2" class="a">
+              <a-badge-ribbon text="Populaire" color="blue">
+                <a-card>
+                  <a-tag color="green">Disponible</a-tag>
+                  <a-tag color="blue">Climatisée</a-tag>
                   <div>
-                    <span class="text-decorate">Akfa Romeo | Guilla</span>
-                    <br />
-                    <h5>Veloce, 2024</h5>
+                    <img
+                      src="/src/assets/img/v2.png"
+                      class="img-fluid img-voiture3"
+                      alt=""
+                    />
                   </div>
-                  <div>
-                    <h5>150.000 XOF / Jour</h5>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <span class="text-decorate">Akfa Romeo | Guilla</span>
+                      <br />
+                      <h5>Veloce, 2024</h5>
+                    </div>
+                    <div>
+                      <h5>300.000 XOF / Jour</h5>
+                    </div>
                   </div>
-                </div>
-              </a-card>
-            </a-badge-ribbon>
+                </a-card>
+              </a-badge-ribbon>
+            </router-link>
           </div>
           <div class="col-md-6 my-3">
-            <a-badge-ribbon text="Populaire" color="blue">
-              <a-card>
-                <a-tag color="green">Disponible</a-tag>
-                <a-tag color="blue">Climatisée</a-tag>
-                <div>
-                  <img
-                    src="/src/assets/img/v3.png"
-                    class="img-fluid img-voiture3"
-                    alt=""
-                  />
-                </div>
-                <div class="d-flex justify-content-between align-items-end">
+            <router-link to="/search/3" class="a">
+              <a-badge-ribbon text="Populaire" color="blue">
+                <a-card>
+                  <a-tag color="green">Disponible</a-tag>
+                  <a-tag color="blue">Climatisée</a-tag>
                   <div>
-                    <span class="text-decorate">Akfa Romeo | Guilla</span>
-                    <br />
-                    <h5>Veloce, 2024</h5>
+                    <img
+                      src="/src/assets/img/v3.png"
+                      class="img-fluid img-voiture3"
+                      alt=""
+                    />
                   </div>
-                  <div>
-                    <h5>150.000 XOF / Jour</h5>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <span class="text-decorate">Akfa Romeo | Guilla</span>
+                      <br />
+                      <h5>Veloce, 2024</h5>
+                    </div>
+                    <div>
+                      <h5>150.000 XOF / Jour</h5>
+                    </div>
                   </div>
-                </div>
-              </a-card>
-            </a-badge-ribbon>
+                </a-card>
+              </a-badge-ribbon>
+            </router-link>
           </div>
           <div class="col-md-6 my-3">
-            <a-badge-ribbon text="Voiture d'exeption" color="orange">
-              <a-card>
-                <a-tag color="green">Disponible</a-tag>
-                <a-tag color="blue">Climatisée</a-tag>
-                <div>
-                  <img
-                    src="/src/assets/img/v4.png"
-                    class="img-fluid img-voiture3"
-                    alt=""
-                  />
-                </div>
-                <div class="d-flex justify-content-between align-items-end">
+            <router-link to="/search/4" class="a">
+              <a-badge-ribbon text="Voiture d'exeption" color="orange">
+                <a-card>
+                  <a-tag color="green">Disponible</a-tag>
+                  <a-tag color="blue">Climatisée</a-tag>
                   <div>
-                    <span class="text-decorate">Akfa Romeo | Guilla</span>
-                    <br />
-                    <h5>Veloce, 2024</h5>
+                    <img
+                      src="/src/assets/img/v4.png"
+                      class="img-fluid img-voiture3"
+                      alt=""
+                    />
                   </div>
-                  <div>
-                    <h5>150.000 XOF / Jour</h5>
+                  <div class="d-flex justify-content-between align-items-end">
+                    <div>
+                      <span class="text-decorate">Akfa Romeo | Guilla</span>
+                      <br />
+                      <h5>Veloce, 2024</h5>
+                    </div>
+                    <div>
+                      <h5>150.000 XOF / Jour</h5>
+                    </div>
                   </div>
-                </div>
-              </a-card>
-            </a-badge-ribbon>
+                </a-card>
+              </a-badge-ribbon>
+            </router-link>
           </div>
         </div>
         <div class="d-flex justify-content-end">

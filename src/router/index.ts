@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import MainLayout from '../layouts/mainLayout.vue';
 import Search from '../pages/Search.vue';
+import DetailSearch from '../pages/detailSearch.vue';
 
 const routes = [
     {
@@ -10,6 +11,7 @@ const routes = [
         children: [
             { path: '', component: Home },
             { path: 'search', component: Search },
+            { path: 'search/:id', component: DetailSearch },
         ],
     },
 ];

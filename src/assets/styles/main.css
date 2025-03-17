@@ -191,6 +191,7 @@ img#img-logo {
 }
 
 .a {
+  text-decoration: none;
   color: #575757;
 }
 .a:hover {

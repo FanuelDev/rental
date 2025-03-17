@@ -269,9 +269,9 @@ const place = ref<number>(2);
 type RangeValue = [Dayjs, Dayjs];
 const valueDate = ref<RangeValue>();
 
-const value1 = ref("Citadines");
-const value2 = ref("Économique");
-const value3 = ref("Thermique (Essence/Diesel)");
+// const value1 = ref("Citadines");
+// const value2 = ref("Économique");
+// const value3 = ref("Thermique (Essence/Diesel)");
 
 const handleChange = (value: string) => {
   console.log(`selected ${value}`);

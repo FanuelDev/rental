@@ -4,7 +4,7 @@
 $primary-color: #D97706;
 $dark-color: #1E1E1E;
 $blue-color: #1E40AF;
-$light-color: #F5F5DC;
+$light-color: #dadada;
 $font-bold: 'Spartan', sans-serif;
 $font-light: 'Poppins', sans-serif;
 
@@ -175,6 +175,14 @@ img#img-logo {
 }
 
 
+.img-voiture3 {
+  border-radius: 10px;
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+}
+
+
 .img-voiture1 {
   border-radius: 10px;
   width: 100%;
@@ -231,4 +239,15 @@ ul {
 
 .bg-primary {
   background-color: $primary-color !important;
+}
+
+.text-blue {
+  color: $blue-color;
+}
+.text-primar {
+  color: $primary-color;
+}
+
+.brr {
+  border-radius: 10px;
 }

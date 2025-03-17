@@ -273,7 +273,7 @@ const valueDate = ref<RangeValue>();
 // const value2 = ref("Économique");
 // const value3 = ref("Thermique (Essence/Diesel)");
 
-const handleChange = (value: string) => {
-  console.log(`selected ${value}`);
-};
+// const handleChange = (value: string) => {
+//   console.log(`selected ${value}`);
+// };
 </script>

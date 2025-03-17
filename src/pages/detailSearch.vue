@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container my-5">
         coucou
     </div>
 </template>

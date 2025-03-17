@@ -62,9 +62,9 @@
             </a-select>
           </div>
 
-          <button class="btn btn-primary btn-lg ml-4">
+          <router-link to="/search" class="btn btn-primary btn-lg ml-4">
             <i class="fa fa-search"></i>
-          </button>
+          </router-link>
         </div>
       </div>
     </div>

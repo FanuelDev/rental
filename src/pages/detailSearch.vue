@@ -78,11 +78,11 @@
           </div>
           <div class="my-5">
             <button class="btn btn-dark mx-2">Reserver maintenant</button>
-            <router-link to="/auth/register">
+            <!-- <router-link to="/auth/register">
               <button class="btn btn-outline-primary mx-2">
                 Créer un compte
               </button>
-            </router-link>
+            </router-link> -->
           </div>
         </div>
       </div>

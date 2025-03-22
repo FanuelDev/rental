@@ -1,6 +1,6 @@
 <template>
   <a-layout class="bg-white">
-    <nav class="navbar navbar-expand-sm navbar-light bg-white py-3 sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light bg-whiter py-3 sticky-top">
       <div class="container">
         <router-link class="navbar-brand" to="/">
           <img src="/src/assets/img/logo.png" alt="" id="img-logo"
@@ -42,7 +42,7 @@
             <router-link
               class="nav-link mx-2 btn btn-outline-primary"
               aria-current="page"
-              to="#"
+              to="/auth/login"
               >Se connecter</router-link
             >
           </div>

@@ -139,7 +139,7 @@ img#img-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -60px;
+  margin-top: 10px;
 }
 
 .ml-4 {
@@ -208,6 +208,15 @@ img#img-logo {
   padding: 50px;
 }
 
+.banner {
+  width: 75vw;
+  height: 100vh;
+  background-image: url(/src/assets/img/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
 .text-decorate {
   color: #575757;
 }
@@ -251,4 +260,8 @@ ul {
 
 .brr {
   border-radius: 10px;
+}
+
+.bg-whiter {
+  background-color: rgba($color: #fff, $alpha: 0.95);
 }

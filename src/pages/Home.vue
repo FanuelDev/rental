@@ -69,12 +69,228 @@
       </div>
     </div>
     <div class="my-4 row">
+      <div class="col-md-3 my-3">
+        <router-link to="/search/1" class="a">
+          <a-badge-ribbon text="Nouveauté" color="green">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v1.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/2" class="a">
+          <a-badge-ribbon text="Populaire" color="blue">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v2.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>300.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/3" class="a">
+          <a-badge-ribbon text="Populaire" color="blue">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v3.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/4" class="a">
+          <a-badge-ribbon text="Voiture d'exeption" color="orange">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v4.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/1" class="a">
+          <a-badge-ribbon text="Nouveauté" color="green">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v1.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/2" class="a">
+          <a-badge-ribbon text="Populaire" color="blue">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v2.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>300.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/3" class="a">
+          <a-badge-ribbon text="Populaire" color="blue">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v3.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
+      <div class="col-md-3 my-3">
+        <router-link to="/search/4" class="a">
+          <a-badge-ribbon text="Voiture d'exeption" color="orange">
+            <a-card>
+              <a-tag color="green">Disponible</a-tag>
+              <a-tag color="blue">Climatisée</a-tag>
+              <div>
+                <img
+                  src="/src/assets/img/v4.png"
+                  class="img-fluid img-voiture3"
+                  alt=""
+                />
+              </div>
+              <div class="d-flex justify-content-between align-items-end">
+                <div>
+                  <span class="text-decorate">Akfa Romeo | Guilla</span>
+                  <br />
+                  <h6>Veloce, 2024</h6>
+                </div>
+                <div>
+                  <h6>150.000 XOF / Jour</h6>
+                </div>
+              </div>
+            </a-card>
+          </a-badge-ribbon>
+        </router-link>
+      </div>
       <div class="col-md-10 offset-md-1">
-        <img
+        <!-- <img
           src="/src/assets/img/banner1.png"
           class="img-banner img-fluid"
           alt=""
-        />
+        /> -->
         <div class="scroller">
           <button class="btn btn-outline-primar">
             <i class="fa fa-arrow-down"></i>
@@ -219,66 +435,57 @@
   <section class="top">
     <div class="row">
       <div class="col-md-4 offset-md-4">
-        <h1 class="text-center">
-          Articles & Blogs
-        </h1>
-        <p class="text-center">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet <br> consectetur adipisicing.</p>
+        <h1 class="text-center">Articles & Blogs</h1>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet <br />
+          consectetur adipisicing.
+        </p>
       </div>
     </div>
 
     <div class="row my-5">
       <div class="col-md-3">
-        <img src="/src/assets/img/5.jpg" class="img-fluid img-article" alt="">
+        <img src="/src/assets/img/5.jpg" class="img-fluid img-article" alt="" />
         <div class="m-3">
           <p>lorem</p>
-          <h5 class="mb-3">
-            Lorem ipsum dolor sit amet consectetur adip.
-          </h5>
+          <h5 class="mb-3">Lorem ipsum dolor sit amet consectetur adip.</h5>
           <small>Mars 12, 2025</small>
         </div>
       </div>
       <div class="col-md-3">
-        <img src="/src/assets/img/6.jpg" class="img-fluid img-article" alt="">
+        <img src="/src/assets/img/6.jpg" class="img-fluid img-article" alt="" />
         <div class="m-3">
           <p>lorem</p>
-          <h5 class="mb-3">
-            Lorem ipsum dolor sit amet consectetur adip.
-          </h5>
+          <h5 class="mb-3">Lorem ipsum dolor sit amet consectetur adip.</h5>
           <small>Mars 12, 2025</small>
         </div>
       </div>
       <div class="col-md-3">
-        <img src="/src/assets/img/2.jpg" class="img-fluid img-article" alt="">
+        <img src="/src/assets/img/2.jpg" class="img-fluid img-article" alt="" />
         <div class="m-3">
           <p>lorem</p>
-          <h5 class="mb-3">
-            Lorem ipsum dolor sit amet consectetur adip.
-          </h5>
+          <h5 class="mb-3">Lorem ipsum dolor sit amet consectetur adip.</h5>
           <small>Mars 12, 2025</small>
         </div>
       </div>
       <div class="col-md-3">
-        <img src="/src/assets/img/4.jpg" class="img-fluid img-article" alt="">
+        <img src="/src/assets/img/4.jpg" class="img-fluid img-article" alt="" />
         <div class="m-3">
           <p>lorem</p>
-          <h5 class="mb-3">
-            Lorem ipsum dolor sit amet consectetur adip.
-          </h5>
+          <h5 class="mb-3">Lorem ipsum dolor sit amet consectetur adip.</h5>
           <small>Mars 12, 2025</small>
         </div>
       </div>
-      
-    <div class="text-center my-5">
-      <button class="btn btn-outline-primary mx-2">
-        Voir plus <i class="fa fa-arrow-right"></i>
-      </button>
-    </div>
+
+      <div class="text-center my-5">
+        <button class="btn btn-outline-primary mx-2">
+          Voir plus <i class="fa fa-arrow-right"></i>
+        </button>
+      </div>
     </div>
   </section>
 
-  <section class="top">
-
-  </section>
+  <section class="top"></section>
 
   <section class="top">
     <div class="container bg-banner2">
@@ -286,7 +493,11 @@
         <div class="col-md-5"></div>
         <div class="col-md-6 text-center my-4">
           <h2 class="text-white">Conduisons avec un contrat aujourd'hui.</h2>
-          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, saepe blanditiis dolor animi vitae ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, delectus.</p>
+          <p class="text-white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
+            saepe blanditiis dolor animi vitae ullam? Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Quas, delectus.
+          </p>
           <div class="my-4">
             <button class="btn btn-primary px-4">
               Télécharger l'application mobile
@@ -296,7 +507,6 @@
       </div>
     </div>
   </section>
-
 </template>
 <script lang="ts" setup>
 import { ref } from "vue";

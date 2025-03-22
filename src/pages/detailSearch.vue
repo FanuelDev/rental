@@ -229,5 +229,4 @@
 
 <script lang="ts" setup>
 import { ref } from "vue";
-const value = ref<number>(3.5);
 </script>

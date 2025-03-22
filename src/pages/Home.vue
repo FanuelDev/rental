@@ -62,7 +62,7 @@
             </a-select>
           </div>
 
-          <router-link to="/search" class="btn btn-primary btn-lg ml-4">
+          <router-link to="/" class="btn btn-primary btn-lg ml-4">
             <i class="fa fa-search"></i>
           </router-link>
         </div>
@@ -292,9 +292,11 @@
           alt=""
         /> -->
         <div class="scroller">
+          <router-link to="/search">
           <button class="btn btn-outline-primar">
             <i class="fa fa-arrow-down"></i>
           </button>
+          </router-link>
         </div>
       </div>
     </div>

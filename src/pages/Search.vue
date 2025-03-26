@@ -111,7 +111,7 @@
         </div>
         <div class="my-4 row">
           <div class="col-md-6 my-3">
-            <router-link to="/search/1" class="a">
+            <a href="/search/1" class="a">
               <a-badge-ribbon text="Nouveauté" color="green">
                 <a-card>
                   <a-tag color="green">Disponible</a-tag>
@@ -135,10 +135,10 @@
                   </div>
                 </a-card>
               </a-badge-ribbon>
-            </router-link>
+            </a>
           </div>
           <div class="col-md-6 my-3">
-            <router-link to="/search/2" class="a">
+            <a href="/search/2" class="a">
               <a-badge-ribbon text="Populaire" color="blue">
                 <a-card>
                   <a-tag color="green">Disponible</a-tag>
@@ -162,10 +162,10 @@
                   </div>
                 </a-card>
               </a-badge-ribbon>
-            </router-link>
+            </a>
           </div>
           <div class="col-md-6 my-3">
-            <router-link to="/search/3" class="a">
+            <a href="/search/3" class="a">
               <a-badge-ribbon text="Populaire" color="blue">
                 <a-card>
                   <a-tag color="green">Disponible</a-tag>
@@ -189,10 +189,10 @@
                   </div>
                 </a-card>
               </a-badge-ribbon>
-            </router-link>
+            </a>
           </div>
           <div class="col-md-6 my-3">
-            <router-link to="/search/4" class="a">
+            <a href="/search/4" class="a">
               <a-badge-ribbon text="Voiture d'exeption" color="orange">
                 <a-card>
                   <a-tag color="green">Disponible</a-tag>
@@ -216,7 +216,7 @@
                   </div>
                 </a-card>
               </a-badge-ribbon>
-            </router-link>
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-end">

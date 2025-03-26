@@ -97,6 +97,28 @@ img#img-logo {
   color: #fff !important;
   font-weight: bold;
 }
+.btn.btn-outline-light {
+  border: 1px solid #fff !important;
+  background-color: transparent;
+  color: #fff !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.btn.btn-outline-light:hover {
+  background-color: #D97706 !important;
+  border: 1px solid #D97706 !important;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.fsl {
+  font-size: 16px !important;
+}
+.fsl:hover {
+  color: #D97706;
+}
 
 .top {
   margin-top: 100px;
@@ -175,6 +197,21 @@ img#img-logo {
      object-fit: cover;
 }
 
+.bg-banner {
+  width: 100%;
+  height: 90vh;
+  background-image: url(/src/assets/img/2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  border-radius: 20px;
+  padding: 50px;
+}
+
+.topy {
+  margin-top: 250px;
+}
+
 .bg-banner2 {
   width: 100%;
   height: 30vh;
@@ -235,6 +272,11 @@ ul li a {
 
 .brr {
   border-radius: 10px;
+}
+
+.bg-whiter1 {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
 }
 
 .bg-whiter {

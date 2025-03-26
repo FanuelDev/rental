@@ -40,7 +40,7 @@
     <div class="my-5">
       <small
         >J'ai pas de compte,
-        <router-link to="/auth/register">s'inscrire</router-link>
+        <a href="/auth/register">s'inscrire</a>
       </small>
     </div>
   </div>

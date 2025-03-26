@@ -6,13 +6,20 @@ import DetailSearch from '../pages/detailSearch.vue';
 import Login from '../pages/Login.vue';
 import Register from '../pages/Register.vue';
 import AuthLayout from '../layouts/authLayout.vue';
+import IndexLayout from '../layouts/indexLayout.vue';
 
 const routes = [
     {
         path: '/',
-        component: MainLayout,
+        component: IndexLayout,
         children: [
             { path: '', component: Home },
+        ],
+    },
+    {
+        path: '/',
+        component: MainLayout,
+        children: [
             { path: 'search', component: Search },
             { path: 'search/:id', component: DetailSearch },
         ],

@@ -2,9 +2,9 @@
   <div class="d-flex justify-content-between">
     <div>
       <div class="p-5">
-        <router-link class="navbar-brand" to="/">
+        <a class="navbar-brand" href="/">
           <img src="/src/assets/img/logo.png" alt="" id="img-logo" />
-        </router-link>
+        </a>
       </div>
       <div class="p-5" style="width: 450px">
         <router-view />

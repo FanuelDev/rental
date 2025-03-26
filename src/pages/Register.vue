@@ -52,7 +52,7 @@
       </a-form-item>
     </a-form>
       <div class="my-5">
-        <small>J'ai déjà un compte, <router-link to="/auth/login">connectez vous</router-link> </small>
+        <small>J'ai déjà un compte, <a href="/auth/login">connectez vous</a> </small>
       </div>
   </div>
 </template>

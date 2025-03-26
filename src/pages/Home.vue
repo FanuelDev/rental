@@ -2,8 +2,7 @@
   <section>
     <div class="my-5">
       <h1 class="text-center">
-        Découvrez la plus grande place de marché de location & <br />
-        d'échange de voitures au monde
+        Rechercher ici quelques voitures <br> a reservées
       </h1>
     </div>
     <div class="my-4 row">
@@ -62,15 +61,15 @@
             </a-select>
           </div>
 
-          <router-link to="/" class="btn btn-primary btn-lg ml-4">
+          <a href="/" class="btn btn-primary btn-lg ml-4">
             <i class="fa fa-search"></i>
-          </router-link>
+          </a>
         </div>
       </div>
     </div>
     <div class="my-4 row">
       <div class="col-md-3 my-3">
-        <router-link to="/search/1" class="a">
+        <a href="/search/1" class="a">
           <a-badge-ribbon text="Nouveauté" color="green">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -94,10 +93,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/2" class="a">
+        <a href="/search/2" class="a">
           <a-badge-ribbon text="Populaire" color="blue">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -121,10 +120,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/3" class="a">
+        <a href="/search/3" class="a">
           <a-badge-ribbon text="Populaire" color="blue">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -148,10 +147,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/4" class="a">
+        <a href="/search/4" class="a">
           <a-badge-ribbon text="Voiture d'exeption" color="orange">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -175,10 +174,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/1" class="a">
+        <a href="/search/1" class="a">
           <a-badge-ribbon text="Nouveauté" color="green">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -202,10 +201,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/2" class="a">
+        <a href="/search/2" class="a">
           <a-badge-ribbon text="Populaire" color="blue">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -229,10 +228,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/3" class="a">
+        <a href="/search/3" class="a">
           <a-badge-ribbon text="Populaire" color="blue">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -256,10 +255,10 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-3 my-3">
-        <router-link to="/search/4" class="a">
+        <a href="/search/4" class="a">
           <a-badge-ribbon text="Voiture d'exeption" color="orange">
             <a-card>
               <a-tag color="green">Disponible</a-tag>
@@ -283,7 +282,7 @@
               </div>
             </a-card>
           </a-badge-ribbon>
-        </router-link>
+        </a>
       </div>
       <div class="col-md-10 offset-md-1">
         <!-- <img
@@ -292,11 +291,11 @@
           alt=""
         /> -->
         <div class="scroller">
-          <router-link to="/search">
+          <a href="/search">
           <button class="btn btn-outline-primar">
             <i class="fa fa-arrow-down"></i>
           </button>
-          </router-link>
+          </a>
         </div>
       </div>
     </div>
